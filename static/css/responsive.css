@@ -1,0 +1,91 @@
+@media screen and (max-width: 1560px) {
+  main .row:nth-child(2) img{
+    width: 85%;
+  }
+  main .row:nth-child(2){
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .gcazina div{
+    flex-direction: column;
+  }
+  section .gcazina .biografija{
+    margin:0;
+    width: 760px;
+  }
+}
+@media screen and (max-width: 890px) {
+  main::after, main::before{display: none;}
+  main .row:nth-child(1){
+    max-width: 100%;
+  }
+  section .gcazina .biografija{
+    width: 94.5%;
+  }
+  section.brojke{
+    height: auto;
+  }
+  section.brojke .content{
+    flex-wrap: wrap;
+  }
+  main .row:nth-child(2){
+    display: none;
+  }
+}
+
+@media screen and (max-width: 670px) {
+
+  main .row:nth-child(1) h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 2.1rem;
+    color: var(--dct);
+  }
+  nav .drustvene_mreze:nth-child(2){
+    display: none;
+  }
+
+  nav .drustvene_mreze{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+  }
+  section .icentar.inewitems .iitem{
+    flex-direction: column;
+  }
+  section .icentar .iitem{
+    align-items: center;
+  }
+  section .icentar.inewitems .iitem .icon{
+    height: 100%;
+    width: 100%;
+    border: 0;
+    margin:5px 0px;
+  }
+  section .gcazina .biografija p{
+    font-size: 14px;
+  }
+  .navigacija{
+    display: none;
+  }
+  .mobile-row{
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  nav .drustvene_mreze p{
+    font-size: 10px;
+  }
+  section.brojke{
+    padding: 50px 0px;
+  }
+  section.brojke .item{
+    margin: 0px 50px;
+  }
+  section.brojke .item{
+    width: 15%;
+  }
+}

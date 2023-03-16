@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+	--html: 	#f7f5f5;
+	--wc:		#f9fbfe;
+	--bc:		#000000;
+	--dc:		#383838;
+	--mc:		#00aa55;
+	--dct:	#1f2428;
+	--tranzicija: 	0.2s;
+	--content_w:	90%;
+}
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+.bi:before{
+	line-height: inherit !important;
+	vertical-align: inherit !important;
+}
+
+i{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+html{
+	background: var(--html);
+	scroll-behavior: smooth;
+}
+
+.content{
+	width: var(--content_w);
+	margin:0px auto;
+	height: 100%;
+}
+
+nav{
+	width: 100%;
+	height: 40px;
+	background: var(--bc);
+}
+
+nav .drustvene_mreze{
+	color: var(--wc);
+	font-size: 15px;
+}
+
+nav .drustvene_mreze p{
+	font-size: 12px;
+	font-weight: 300;
+	margin-right: 15px;
+}
+
+nav .drustvene_mreze p i{
+	padding-right: 5px;
+	margin-bottom: -1px;
+	color: var(--mc);
+}
+
+nav .drustvene_mreze a{
+	padding: 5px;
+	color: var(--dct);
+	font-size: 13px;
+}
+
+nav .drustvene_mreze i{
+	transition: var(--tranzicija);
+}
+
+nav .drustvene_mreze a:hover{
+	color: var(--mc);
+	text-decoration: none;
+}
+
+nav .drustvene_mreze a i.bi-telephone-fill{
+	font-size: 11px;
+	padding-top: 2px;
+}
+
+header{
+	height: 70px;
+	background: #fff;
+}
+
+header .logo{
+	height: 72px;
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: -36px;
+}
+
+header .logo img{
+	width: 85%
+}
+
+section{
+	padding:50px 0px;
+	background: #fff;
+}
+
+section .icentar h1{
+	font-weight: 500;
+	color: var(--dct);
+	font-size: 20px;
+}
+
+.hshadow{
+	font-weight: 500;
+	color: var(--dct);
+	font-size: 20px;
+}
+
+.shadow{
+	font-size: 14px;
+	color: #1f2428a8;
+	font-weight: 400;
+	display: flex;
+	margin-bottom: 20px;
+}
+
+section .icentar .iitem{
+	padding: 10px;
+	box-shadow: rgba(80, 79, 79, 0.1) 0px 0px 10px;
+	border:1px solid #11111120;
+	margin:5px;
+	transition: var(--tranzicija);
+	border-radius: 3px;
+}
+
+section .icentar.ilow .iitem{
+	border:0;
+	padding: 0px;
+	box-shadow: none;
+	margin:10px;
+}
+
+section .icentar .iitem:hover{
+	background: var(--mc);
+	border-radius: 15px 3px 15px 3px;
+}
+
+section .icentar .iitem:hover p, section .icentar .iitem:hover span{
+	color: var(--wc);
+}
+
+section .icentar .iitem .icon{
+	height: 75px;
+}
+
+section .icentar .iitem:hover .icon, section .icentar .iitem:hover img{
+	border-radius: 15px 0px 15px 0px;
+}
+
+section .icentar a:hover{
+	text-decoration: none
+}
+
+section .icentar .iitem span{
+	text-transform: uppercase;
+  font-weight: 500;
+  color: var(--mc);
+  transition: var(--tranzicija);
+}
+
+section .icentar.inewitems .iitem span{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+section .icentar .iitem p{
+	max-width: 300px;
+	font-size: 14px;
+	color: var(--dct);
+	transition: var(--tranzicija);
+}
+
+section .icentar.inewitems .iitem p{
+	max-width: 515px;
+	font-size: 14px;
+}
+
+section .icentar.inewitems .iitem .icon{
+	height: 140px;
+}
+section .icentar .iitem div:nth-child(2){
+	padding-left: 10px;
+}
+
+section .icentar .iitem .icon{
+	border:1px solid #11111120;
+	transition: var(--tranzicija);
+}
+
+section .icentar .iitem .icon img{
+	transition: var(--tranzicija);
+}
+
+section.wc{
+	background: var(--html);
+}
+
+section.brojke{
+	width: 100%;
+	height: 250px;
+	background: url('../img/brojevibg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:0;
+}
+
+section.brojke .item{
+	padding:10px;
+	border-radius: 3px;
+	margin:0px 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section.brojke .item i{
+	color: var(--mc);
+	font-size: 50px;
+}
+
+section.brojke .item span{
+	color: var(--wc);
+	font-size: 30px;
+	font-weight: 500;
+}
+
+section.brojke .item span strong{
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #f9fbfe4a;
+}
+
+section.brojke .item p{
+	color: #f9fbfe4a;
+	margin-top: -5px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+section .gcazina .slika img{
+	width: 100%;
+	border-radius: 3px;
+}
+
+section .gcazina .biografija{
+	background: #fff;
+	padding:20px;
+	margin-left: -100px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px #11111120;
+}
+
+section .gcazina .biografija span{
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--mc);
+}
+
+section .gcazina .biografija p{
+	max-width: 500px;
+	font-weight: 400;
+  color: #1f2428a8;
+  display: flex;
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+main{
+	position: relative;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url('../img/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main:before {
+  content: '';
+  height: 100%;
+  width: 30%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/pocetna2.jpg);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+main::after {
+  content: '';
+  height: 100%;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.88);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+main .drustvene_mreze {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  z-index: 1;
+}
+
+main .drustvene_mreze i{
+	font-size: 15px;
+	margin:10px 0px;
+	color: var(--mc);
+
+	border-radius: 100%;
+	box-shadow: 0px 0px 0px 1px var(--dc) ;
+	padding:7px;
+	transition: var(--tranzicija);
+}
+
+main .drustvene_mreze a:hover{
+	text-decoration: none;
+}
+
+main .drustvene_mreze i:hover{
+	background: var(--mc);
+	color: var(--wc);
+}
+
+main .box{
+	width: 90%;
+}
+
+main .row:nth-child(1){
+	max-width: 50%;
+}
+
+main .row:nth-child(1) span{
+	text-transform: uppercase;
+	font-weight: 500;
+	color: var(--mc);
+	display: flex;
+	margin-bottom: 15px;
+}
+
+main .row:nth-child(1) h1{
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 3.7rem;
+	color: var(--dct);
+}
+
+main .row:nth-child(2){
+	width: 700px;
+	position: relative;
+	z-index: 1;
+}
+
+main .row:nth-child(1) button{
+	margin: 10px 0px;
+	padding:5px 20px;
+	background: red;
+	font-size: 16px;
+	border-radius: 3px;
+	background: var(--mc);
+	color: var(--wc);
+	font-weight: 500;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+main .row:nth-child(1) button:hover{
+	border-radius: 20px 3px 20px 3px;
+	background: #176e43;
+}
+
+main .row:nth-child(2) img{
+	width: 100%;
+	border-radius: 4px;
+	display: block;
+}
+
+main .row:nth-child(1) p{
+	font-weight: 400;
+	color: #1f2428a8;
+	display: flex;
+	margin-top: 15px;
+	font-size: 14px;
+	max-width: 80%;
+}
+
+.dropbtn {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding:5px 0px;
+}
+
+header .dropbtn{
+	color: var(--dc);
+}
+
+header .dropdown-content a{
+	color: var(--dc);
+	font-size: 14px;
+	min-width: 200px;
+	margin:3px 0px;
+}
+
+header a.url{
+	margin-left: 15px;
+}
+
+.dropbtn i{
+	margin: 0;
+	margin-left: 5px;
+	font-size: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 25px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.dropdown-content {
+	display: none;
+  position: absolute;
+  z-index: 1;
+  background: #222;
+  font-size: 12px;
+  margin-left: -15px;
+  padding:5px;
+
+  background: #fff;
+  box-shadow: 0px 0px 10px #00000030;
+  border: 1px solid #00000020;
+  z-index: 2;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--mc);
+  color: var(--dc) !important;
+  border-radius: 1px;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding:3px 10px;
+  min-width: 100px;
+}
+
+footer{
+	width: 100%;
+	height: 40px;
+	background: #000;
+	color: var(--wc);
+	font-size: 12px;
+  font-weight: 300;
+  margin-right: 15px;
+}
+
+.bi-list{
+	font-size: 5vw;
+	color: var(--dct);
+}
+
+.mobile-row{
+	display: none;
+}
+
+::-moz-selection {
+  color: var(--dct);
+  background: var(--mc);
+}
+
+::selection {
+  color: var(--wc);
+  background: var(--mc);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dbdbdb; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--mc); 
+}

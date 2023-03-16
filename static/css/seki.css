@@ -1,0 +1,58 @@
+/*
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░				 ░░												░░				 ░░
+░░░░░░░░░░░░░░░░░░░ -> [ Custom CSS Framework ]					░░░░░░░░░░░░░░░░░░░
+░░█▀▀░█▀▀░█░█░▀█▀░░ -> [IG] - instagram.com/ljubijankiic_		░░█▀▀░█▀▀░█░█░▀█▀░░
+░░▀▀█░█▀▀░█▀▄░░█░░░ -> [GH] - github.com/seekiii				░░▀▀█░█▀▀░█▀▄░░█░░░
+░░▀▀▀░▀▀▀░▀░▀░▀▀▀░░	-> [SO] - stackoverflow.com/users/15145360	░░▀▀▀░▀▀▀░▀░▀░▀▀▀░░
+░░░░░░░░░░░░░░░░░░░ -> [PF] - seekii.rf.gd						░░░░░░░░░░░░░░░░░░░
+░░				 ░░												░░				 ░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+*/
+
+
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	outline: 0;
+	text-decoration: none;
+
+	line-height: inherit;
+	vertical-align: inherit;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+.s-flex{display: flex;}
+.s-flex-right{display: flex;justify-content: flex-end;}
+.s-flex-right-top{display: flex;justify-content: flex-end;align-items: flex-start;}
+.s-flex-right-center{display: flex;justify-content: flex-end;align-items: center;}
+.s-flex-right-bottom{display: flex;justify-content: flex-end;align-items: flex-end;}
+
+.s-flex-left{display: flex;justify-content: flex-start;}
+.s-flex-left-top{display: flex;justify-content: flex-start;align-items: flex-start;}
+.s-flex-left-center{display: flex;justify-content: flex-start;align-items: center;}
+.s-flex-left-bottom{display: flex;justify-content: flex-start;align-items: flex-end;}
+
+.s-flex-center{display: flex;justify-content: center;}
+.s-flex-center-top{display: flex;justify-content: center;align-items: flex-start;}
+.s-flex-center-center{display: flex;justify-content: center;align-items: center;}
+.s-flex-center-bottom{display: flex;justify-content: center;align-items: flex-end;}
+
+.s-flex-between{display: flex;justify-content: space-between;}
+.s-flex-between-top{display: flex;justify-content: space-between;align-items: flex-start;}
+.s-flex-between-center{display: flex;justify-content: space-between;align-items: center;}
+.s-flex-between-bottom{display: flex;justify-content: space-between;align-items: flex-end;}
+
+.s-flex-evenly{display: flex;justify-content: space-evenly;}
+.s-flex-evenly-top{display: flex;justify-content: space-evenly;align-items: flex-start;}
+.s-flex-evenly-center{display: flex;justify-content: space-evenly;align-items: center;}
+.s-flex-evenly-bottom{display: flex;justify-content: space-evenly;align-items: flex-end;}
+
+.s-flex-column{display: flex;flex-direction: column;}
+
+.s-flex-wrap{flex-wrap: wrap;}
+.s-fullW{width: 100%;}
+.s-fullH{height: 100%;}
