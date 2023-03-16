@@ -4,7 +4,7 @@ $(document).ready(function() {
   }, function() {$(this).find('.dropdown-content').stop(true, true).fadeOut(200); });
 
   $("#cr").text(`© ${new Date().getFullYear()} Grad Cazin`)
-  console.log('%cPotreban ti je website?\n--------------------------------------------------------------------\n| Github:                    | Instagram:                          |\n| https://github.com/seekiii | https://instagram.com/ljubijankiic_ |\n--------------------------------------------------------------------', 'color: #ff9600; font-weight: bold;font-size:14px');
+  console.log('%cPotreban ti je website?\n------------------------------\n| Github:                    |\n| https://github.com/seekiii |\n------------------------------', 'color: #ff9600; font-weight: bold;font-size:14px');
 });
 
 ucitani_brojevi = false
